@@ -1,0 +1,45 @@
+.form-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        label {
+            width: 80px;
+            text-align: right;
+            margin-right: 0.9rem;
+        }
+
+        .form-control {
+            width: 80%;
+            padding: 0.375rem 0.75rem;
+            border: 1px solid #ced4da;
+            appearance: none;
+            border-radius: 0.375rem;
+        }
+    }
+
+    .btn-div {
+        justify-content: flex-end;
+
+        .btn-success {
+            background-color: rgba(20, 108, 67, 1);;
+            color: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(20, 108, 67, 1);
+            margin-right: 0.4rem;
+        }
+
+        .btn-danger {
+            background-color: rgb(108, 117, 125, 1);
+            color: rgba(0, 0, 0, 1);
+            border: 1px solid rgb(108, 117, 125, 1);
+        }
+    }
+    margin-top: 15px;
+
+}

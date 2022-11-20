@@ -1,0 +1,38 @@
+
+    section {
+        padding: 0.9rem;
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+        border-left: 1px solid;
+        border-radius: 0.35rem;
+
+        div {
+            display: flex;
+            align-items: center;
+            .label-control {
+                width: 100px;
+                font-weight: 800;
+                padding: 0.4rem;
+                border-top: 1px dashed rgba(181, 181, 181, 0.88);
+                border-bottom:1px dashed rgba(181, 181, 181, 0.88);
+                border-left: 1px dashed rgba(181, 181, 181, 0.88);
+            }
+            
+            .text-container {
+                width: 100%;
+                padding: 0.4rem;
+                border: 1px dashed rgba(181, 181, 181, 0.88);
+            }
+        }
+       
+    }
+
+    .border-success {
+        border-color: rgb(33, 116, 48);
+    }
+
+    .border-warning {
+        border-color: rgb(212, 181, 6);
+    }
+
+

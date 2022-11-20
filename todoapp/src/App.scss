@@ -1,0 +1,30 @@
+body {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.btn {
+
+  @extend .click;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  padding: 0.8rem;
+  vertical-align: middle;
+
+  &:hover, &:focus {
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(0, 0, 0, 1);
+      border-color: rgba(0, 0, 0, 1);
+  }
+}

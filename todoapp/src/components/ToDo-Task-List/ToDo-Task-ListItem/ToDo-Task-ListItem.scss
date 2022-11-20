@@ -1,0 +1,51 @@
+.list-container {
+    list-style-type: none ;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.35rem;
+    margin-top: 0.7rem;
+    padding: 0.8rem;
+
+    .title-span {
+        width: 300px;
+    }
+
+    .status-span {
+        width: 65px;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 0.3rem;
+        padding: 0.2rem;
+        color: white;
+    }
+
+    .btn-red {
+        cursor: pointer;
+        color: rgba(207, 42, 42, 0.86);
+        background: transparent;
+        border: none;
+    }
+}
+
+.bg-warning {
+    border-color: rgb(212, 181, 6);
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 181, 6);
+}
+
+.bg-success {
+    border-color: rgb(33, 116, 48);
+    background-color: rgb(33, 116, 48);
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hide-visible {
+    visibility: hidden;
+}
+
